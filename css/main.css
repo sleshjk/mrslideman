@@ -1,0 +1,130 @@
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 10px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.wrap {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+
+}
+
+header {
+	height: 670px;
+	background: url(../img/header-bg.jpeg) no-repeat center top;
+
+}
+
+.header__intro {
+	display: flex;
+	padding-top: 15px;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.header__intro-menu {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav {
+	width: 100%;
+}
+
+.header__intro-list a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 25px;
+	font-weight: 900;
+	font-size: 1.3em;
+}
+
+.header__intro-list a:hover {
+	color: #00e0d0;
+}
+
+.header__ui {
+	text-align: center;
+	color: #fff;
+	padding-top: 160px;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.header__ui-line {
+	width: 8%;
+	background-color: #00e0d0;
+	height: 0.1vh;
+	border: none;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.header__ui-title {
+	font-weight: 900;
+	font-size: 3.2em; 
+
+}
+
+.header__ui-text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.4em;
+	line-height: 1.6em;
+}
+
+.header__btn {
+	padding-top: 52px;
+}
+
+.header__btn-item {
+	color: #00e0d0;
+	text-decoration: none;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1.6em;
+	width: 12%;
+	padding: 15px 15px;
+	border: 1px solid #00e0d0;
+	border-radius: 2px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	transition: all 0.4s ease;
+}
+
+.header__btn-item:hover {
+	background: #00e0d0;
+	color: initial;
+}
+
+.our {
+	display: flex;
+}
+
+.our__logo {
+	/*width: 43%;
+	margin-right: 0px;
+	margin-left: 0px;*/
+	position: absolute;
+	
+}
+
+.our__ui {
+	width: 540px;
+	position: relative;
+	padding-left: 43%;
+}
